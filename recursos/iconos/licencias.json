@@ -53,5 +53,35 @@
     "coleccion": "Tabler Icons",
     "licencia": "MIT",
     "atribucion": false
+  },
+  "tabler-x.svg": {
+    "coleccion": "Tabler Icons",
+    "licencia": "MIT",
+    "atribucion": false
+  },
+  "tabler-check.svg": {
+    "coleccion": "Tabler Icons",
+    "licencia": "MIT",
+    "atribucion": false
+  },
+  "tabler-arrow-right.svg": {
+    "coleccion": "Tabler Icons",
+    "licencia": "MIT",
+    "atribucion": false
+  },
+  "tabler-message-circle.svg": {
+    "coleccion": "Tabler Icons",
+    "licencia": "MIT",
+    "atribucion": false
+  },
+  "tabler-truck-delivery.svg": {
+    "coleccion": "Tabler Icons",
+    "licencia": "MIT",
+    "atribucion": false
+  },
+  "tabler-cash.svg": {
+    "coleccion": "Tabler Icons",
+    "licencia": "MIT",
+    "atribucion": false
   }
 }

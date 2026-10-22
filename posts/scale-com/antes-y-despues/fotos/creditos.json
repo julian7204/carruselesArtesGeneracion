@@ -1,0 +1,6 @@
+{
+  "vendedora.webp": { "autor": "Rifki Kurniawan", "licencia": "Unsplash License", "fuente": "unsplash", "pagina": "https://unsplash.com/photos/k63Or81F8-M" },
+  "empacando.webp": { "autor": "GB The Green Brand", "licencia": "Unsplash License", "fuente": "unsplash", "pagina": "https://unsplash.com/photos/OFCuzLazN3I" },
+  "entrega.webp": { "autor": "RoseBox", "licencia": "Unsplash License", "fuente": "unsplash", "pagina": "https://unsplash.com/photos/BFdSCxmqvYc" },
+  "captura-*.webp": { "autor": "scalEcom", "licencia": "propia", "fuente": "panel real de scaleCom, cuenta demo «Tienda Alborada» (datos inventados)", "pagina": "landingScalEcom/public/capturas" }
+}

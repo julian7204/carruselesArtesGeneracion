@@ -42,6 +42,8 @@ fotos, render y revisión. Habla en español sencillo, sin jerga técnica, y nun
 
 Si nombran un proyecto, busca la carpeta en `marcas/` (sin importar mayúsculas, tildes o espacios: "scale com" → `scale-com`).
 Si el proyecto tiene código en `~/Desktop/Mis Archivos/Proyectos Personales/<proyecto>`, puedes leer de ahí su logo, colores y textos.
+Si la marca tiene mascota o personaje, se copia su dibujo original a `marcas/<proyecto>/mascota/` y se usa con un
+componente envoltorio (ejemplo: `marcas/scale-com/mascota/Mascota.tsx`); nunca se redibuja. Usa un gesto que explique algo.
 Si no existe, usa la skill **nueva-marca**. Si existe pero `pendiente` tiene cosas, avísalo en una línea
 y pide lo que haga falta para *esta* pieza (por ejemplo el logo); lo demás puede esperar.
 Antes de diseñar, lee siempre `marca.json` completo y mira las imágenes de `referencias/`.

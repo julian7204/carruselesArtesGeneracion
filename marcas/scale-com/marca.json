@@ -1,0 +1,92 @@
+{
+  "nombre": "scalEcom",
+  "eslogan": "Vende por WhatsApp y cobra cada entrega.",
+  "rubro": "Software para tiendas en Ecuador que venden por WhatsApp y entregan contra entrega (COD): el bot vende y arma el pedido con los precios del catálogo, el despacho sale a Dropi, los estados de las transportadoras se unifican y cada novedad abre un caso hasta recuperar la venta.",
+  "logo": "logo.png",
+  "logoClaro": "logo-claro.png",
+  "colores": {
+    "primario": "#02457A",
+    "secundario": "#001B48",
+    "acento": "#018ABE",
+    "fondo": "#FFFFFF",
+    "texto": "#0B1526",
+    "textoClaro": "#E8EFF7",
+    "suave": "#97CADB",
+    "niebla": "#D6E8EE",
+    "superficie": "#F6F9FB",
+    "oscuro": "#0A1420",
+    "oscuroElevado": "#0F1C2E",
+    "borde": "#D9E3EA",
+    "bordeOscuro": "#1E3350",
+    "gris": "#4F6275",
+    "grisOscuro": "#93A4B8",
+    "ok": "#15803D",
+    "alerta": "#B45309",
+    "peligro": "#B91C1C",
+    "whatsapp": "#25D366",
+    "dorado": "#F5B301"
+  },
+  "fuentes": {
+    "titulo": {
+      "google": "Bricolage Grotesque",
+      "peso": 700,
+      "archivo": "fuentes/BricolageGrotesque-700.ttf",
+      "familia": "Bricolage Grotesque"
+    },
+    "destacado": {
+      "google": "Bricolage Grotesque",
+      "peso": 600,
+      "archivo": "fuentes/BricolageGrotesque-600.ttf",
+      "familia": "Bricolage Grotesque"
+    },
+    "script": {
+      "google": "Bricolage Grotesque",
+      "peso": 700,
+      "archivo": "fuentes/BricolageGrotesque-700.ttf",
+      "familia": "Bricolage Grotesque"
+    },
+    "cuerpo": {
+      "google": "Onest",
+      "peso": 400,
+      "archivo": "fuentes/Onest-400.ttf",
+      "familia": "Onest"
+    },
+    "cuerpoFuerte": {
+      "google": "Onest",
+      "peso": 600,
+      "archivo": "fuentes/Onest-600.ttf",
+      "familia": "Onest"
+    }
+  },
+  "contacto": {
+    "whatsapp": "",
+    "telefono": "",
+    "web": "",
+    "instagram": "@scalecom.ec",
+    "direccion": "Cuenca, Ecuador"
+  },
+  "voz": "De tú, en español neutro de Ecuador/LATAM. Claro, directo, competente. Verbo + resultado ('Cierra el mes en dos horas', no 'Optimiza tu productividad'). Sin adjetivos vacíos (revolucionario, potente, moderno), sin relleno y sin promesas que el producto no cumple. 'Pagas cuando recibes' es la frase del COD. Cifras solo si están medidas.",
+  "estilo": "Premium y operativo, no 'SaaS genérico' (referencias: linear.app, stripe.com). El producto visible: capturas reales del panel, chat del bot, tarjetas de novedad, estados de pedido como pills. Titulares en Bricolage Grotesque con tracking -0.025em; el acento es el color #018ABE en una o dos palabras, nunca una itálica. Cuerpo en Onest. Radios de 2 a 6 px, bordes finos de 1 px, sombras solo en elementos flotantes. Fotos reales de vendedoras ecuatorianas/latinas con celular y cajas.",
+  "reglas": [
+    "El nombre se escribe scalEcom",
+    "El logo se usa tal cual: sin recolorear, deformar ni efectos (logo.png en fondos claros, logo-claro.png en oscuros)",
+    "Prohibido: glassmorphism, gradientes decorativos, brillos, sombras pesadas, bento sin necesidad, radios mayores a 6 px, íconos decorativos en cajas repetidas",
+    "Testimonios y cifras no se inventan; las capturas del panel usan la cuenta demo «Tienda Alborada» y se rotulan como datos de demostración",
+    "Precios oficiales: Básico $29, Pro $49, Premium $99 al mes; 'Desde $29/mes · Tu mismo número · Sin permanencia'",
+    "La mascota se usa con su dibujo original (marcas/scale-com/mascota), nunca redibujada; un gesto que explique algo, no decoración"
+  ],
+  "fotos": "Vendedoras y emprendedoras reales (Ecuador/LATAM) revisando pedidos en el celular, empacando cajas, entregas en mano. Sin marcas ajenas visibles (se descartaron fotos con DoorDash o Zoom).",
+  "fuentesDeVerdad": [
+    "../scaleCom/docs/brand/brand-manual.md",
+    "../scaleCom/docs/brand/voice-and-tone.md",
+    "../landingScalEcom/knowledge-base/04-design/identidad.md",
+    "../landingScalEcom/knowledge-base/04-design/anti-patrones.md",
+    "../landingScalEcom/src/styles/global.css",
+    "../landingScalEcom/src/data/site.js y plans.js"
+  ],
+  "pendiente": [
+    "número de WhatsApp comercial definitivo",
+    "dominio definitivo (hoy scalecom.es está marcado como pendiente)"
+  ],
+  "mascota": "mascota/ (copia exacta de landingScalEcom/src/mascota; componente Mascota.tsx): el carrito E del logo con cara. Gestos: reposo, escribiendo, pensando, contenta, rodar, triste, dormida, buscando. Accesorios: pin, caja, moneda, auriculares, lupa, birrete, celular."
+}
