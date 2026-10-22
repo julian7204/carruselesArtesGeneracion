@@ -1,0 +1,22 @@
+{
+  "SpaceGrotesk-700.ttf": {
+    "familia": "Space Grotesk",
+    "licencia": "OFL-1.1",
+    "fuente": "https://fontsource.org/fonts/space-grotesk"
+  },
+  "SpaceGrotesk-600.ttf": {
+    "familia": "Space Grotesk",
+    "licencia": "OFL-1.1",
+    "fuente": "https://fontsource.org/fonts/space-grotesk"
+  },
+  "InstrumentSerif-400-italic.ttf": {
+    "familia": "Instrument Serif",
+    "licencia": "OFL-1.1",
+    "fuente": "https://fontsource.org/fonts/instrument-serif"
+  },
+  "Inter-400.ttf": {
+    "familia": "Inter",
+    "licencia": "OFL-1.1",
+    "fuente": "https://fontsource.org/fonts/inter"
+  }
+}

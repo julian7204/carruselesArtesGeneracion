@@ -1,0 +1,56 @@
+{
+  "nombre": "Ejemplo",
+  "eslogan": "Proyecto de muestra",
+  "rubro": "Marca de muestra para probar el estudio. Copia esta carpeta o usa marcas/_plantilla para un proyecto real.",
+  "logo": "",
+  "logoClaro": "",
+  "colores": {
+    "primario": "#2F5BFF",
+    "secundario": "#FF7A3D",
+    "acento": "#FFD84D",
+    "fondo": "#F5F3EE",
+    "texto": "#111318",
+    "textoClaro": "#FFFFFF"
+  },
+  "fuentes": {
+    "titulo": {
+      "google": "Space Grotesk",
+      "peso": 700,
+      "archivo": "fuentes/SpaceGrotesk-700.ttf",
+      "familia": "Space Grotesk"
+    },
+    "destacado": {
+      "google": "Space Grotesk",
+      "peso": 600,
+      "archivo": "fuentes/SpaceGrotesk-600.ttf",
+      "familia": "Space Grotesk"
+    },
+    "script": {
+      "google": "Instrument Serif",
+      "peso": 400,
+      "estilo": "italic",
+      "archivo": "fuentes/InstrumentSerif-400-italic.ttf",
+      "familia": "Instrument Serif"
+    },
+    "cuerpo": {
+      "google": "Inter",
+      "peso": 400,
+      "archivo": "fuentes/Inter-400.ttf",
+      "familia": "Inter"
+    }
+  },
+  "contacto": {
+    "whatsapp": "",
+    "telefono": "",
+    "web": "ejemplo.com",
+    "instagram": "@ejemplo",
+    "direccion": ""
+  },
+  "voz": "Clara y directa, de tú, en español neutro (sin voseo ni modismos).",
+  "estilo": "Editorial limpio: fondo crema, titular grande en Space Grotesk con una palabra en serif itálica, bloques de color plano y textura de papel suave.",
+  "reglas": [],
+  "fotos": "",
+  "pendiente": [
+    "es una marca de muestra"
+  ]
+}

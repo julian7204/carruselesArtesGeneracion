@@ -1,0 +1,47 @@
+{
+  "name": "carruseles-artes-generacion",
+  "version": "1.0.0",
+  "description": "Estudio personal para generar carruseles, posts, afiches y videos para redes.",
+  "main": "index.js",
+  "scripts": {
+    "estudio": "remotion studio src/remotion/index.ts",
+    "render": "tsx scripts/render.ts",
+    "stock": "tsx scripts/stock.ts",
+    "recortar": "tsx scripts/recortar.ts",
+    "imagen": "tsx scripts/imagen-ia.ts",
+    "revisar": "tsc",
+    "fuentes": "tsx scripts/fuentes.ts",
+    "textura": "tsx scripts/textura.ts",
+    "icono": "tsx scripts/icono.ts",
+    "qr": "tsx scripts/qr.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@imgly/background-removal-node": "^1.4.5",
+    "@remotion/bundler": "^4.0.537",
+    "@remotion/cli": "^4.0.537",
+    "@remotion/layout-utils": "^4.0.537",
+    "@remotion/renderer": "^4.0.537",
+    "@remotion/transitions": "^4.0.537",
+    "openai": "^7.39.0",
+    "pdf-lib": "^1.17.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.537",
+    "sharp": "^0.35.5",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.3.0",
+    "jsqr": "^1.4.0",
+    "qrcode": "^1.5.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}

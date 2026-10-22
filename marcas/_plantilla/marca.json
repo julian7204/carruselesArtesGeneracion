@@ -1,0 +1,49 @@
+{
+  "nombre": "Nombre comercial",
+  "eslogan": "",
+  "rubro": "A qué se dedica y a quién le vende",
+  "logo": "logo.png",
+  "logoClaro": "",
+  "colores": {
+    "primario": "#000000",
+    "secundario": "#000000",
+    "acento": "#000000",
+    "fondo": "#FFFFFF",
+    "texto": "#111111",
+    "textoClaro": "#FFFFFF"
+  },
+  "fuentes": {
+    "titulo": {
+      "google": "Bebas Neue"
+    },
+    "destacado": {
+      "google": "Montserrat",
+      "peso": 800
+    },
+    "script": {
+      "google": "Yellowtail"
+    },
+    "cuerpo": {
+      "google": "Montserrat",
+      "peso": 500
+    }
+  },
+  "contacto": {
+    "whatsapp": "",
+    "telefono": "",
+    "web": "",
+    "instagram": "",
+    "direccion": ""
+  },
+  "voz": "Cómo habla la marca: tono, tú o usted (siempre español neutro, sin voseo ni modismos), palabras que usa y que evita.",
+  "estilo": "Cómo se ven sus piezas: tipo de fotos, formas, texturas, composición.",
+  "reglas": [],
+  "fotos": "Qué tipo de fotos usar: personas, edad, ambiente, B/N, duotono…",
+  "pendiente": [
+    "logo",
+    "manual de marca",
+    "colores exactos",
+    "fuentes oficiales",
+    "contacto"
+  ]
+}
