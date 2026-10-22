@@ -13,7 +13,8 @@
     "fuentes": "tsx scripts/fuentes.ts",
     "textura": "tsx scripts/textura.ts",
     "icono": "tsx scripts/icono.ts",
-    "qr": "tsx scripts/qr.ts"
+    "qr": "tsx scripts/qr.ts",
+    "mejorar": "tsx scripts/mejorar.ts"
   },
   "keywords": [],
   "author": "",

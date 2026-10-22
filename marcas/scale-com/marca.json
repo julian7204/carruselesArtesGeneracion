@@ -79,7 +79,7 @@
     "Prohibido: glassmorphism, gradientes decorativos, brillos, sombras pesadas, bento sin necesidad, radios mayores a 6 px, íconos decorativos en cajas repetidas",
     "Testimonios y cifras no se inventan; las capturas del panel usan la cuenta demo «Tienda Alborada» y se rotulan como datos de demostración",
     "Precios oficiales: Básico $29, Pro $49, Premium $99 al mes; 'Desde $29/mes · Tu mismo número · Sin permanencia'",
-    "La mascota se usa con su dibujo original (marcas/scale-com/mascota), nunca redibujada; un gesto que explique algo, no decoración"
+    "La mascota es la 3D de mascota/3d (nunca redibujada ni generada de nuevo); una pose que actúe lo que dice el slide"
   ],
   "fotos": "Vendedoras y emprendedoras reales (Ecuador/LATAM) revisando pedidos en el celular, empacando cajas, entregas en mano. Sin marcas ajenas visibles (se descartaron fotos con DoorDash o Zoom).",
   "fuentesDeVerdad": [
@@ -94,5 +94,5 @@
     "número de WhatsApp comercial definitivo",
     "dominio definitivo (hoy scalecom.es está marcado como pendiente)"
   ],
-  "mascota": "mascota/3d/*.png: 16 poses 3D (saluda, laptop-guino, lentes, celular, rapido, resultados, corazon, cohete, concentrado, compras, vamos, escudo, bandera, idea, relajado, pulgar) recortadas de referencias/mascota-3d-hoja.webp; componente Mascota3D.tsx (entra con rebote y respira). mascota/Mascota.tsx es el dibujo plano del panel (usarlo solo si se pide el estilo plano)."
+  "mascota": "mascota/3d/*.png: 16 poses 3D mejoradas x4 con Real-ESRGAN (saluda, laptop-guino, lentes, celular, rapido, resultados, corazon, cohete, concentrado, compras, vamos, escudo, bandera, idea, relajado, pulgar), recortadas de referencias/mascota-3d-hoja.webp. Componente mascota/Mascota3D.tsx (entra con rebote y respira)."
 }

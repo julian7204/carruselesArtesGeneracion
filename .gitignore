@@ -3,3 +3,4 @@ salida/
 .env
 .DS_Store
 *.log
+.herramientas/
