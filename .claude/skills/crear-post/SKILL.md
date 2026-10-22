@@ -14,6 +14,13 @@ description: Diseña y exporta un post, carrusel, story, reel animado o PDF de L
 3. **Copy** con la voz de la marca, en español neutro (tú; sin voseo ni modismos). Portada = gancho de 3 a 8 palabras; una idea por slide; último slide con CTA y
    contacto. Titulares cortos que se puedan partir en líneas con fuentes distintas (condensada + fuerte + script).
    Escribe también `caption` y 3 a 6 `hashtags`.
+   **Estructura que funciona (investigado en oct. 2026):** 7 a 10 slides; la portada promete una sola idea
+   (afirmación fuerte o contraintuitiva, no "5 tips para…"); el slide 2 es un segundo gancho porque Instagram
+   se lo vuelve a mostrar a quien no deslizó; formatos que se guardan: checklist, antes/después, marcos;
+   un problema por slide; el cierre pide algo concreto (guardar, compartir con alguien, escribir) y es la
+   consecuencia natural del carrusel. En LinkedIn el mismo carrusel va como PDF (8 a 12 páginas).
+   Si la marca tiene mascota, que sea la narradora: una pose distinta por slide que actúe lo que dice el texto,
+   con rango (se emociona, se preocupa, celebra), entrando con rebote en el video.
 4. **Bocetos mentales**: por cada slide decide la composición antes de codificar (dónde va el titular, la foto
    protagonista, las formas, el contacto). Inspírate en `referencias/` y en `marca.estilo`. Varía la composición
    entre slides pero mantén paleta y elementos recurrentes; usa formas que crucen el borde para dar continuidad.

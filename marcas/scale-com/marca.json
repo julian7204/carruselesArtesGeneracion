@@ -56,6 +56,12 @@
       "peso": 600,
       "archivo": "fuentes/Onest-600.ttf",
       "familia": "Onest"
+    },
+    "nota": {
+      "google": "Caveat",
+      "peso": 700,
+      "archivo": "fuentes/Caveat-700.ttf",
+      "familia": "Caveat"
     }
   },
   "contacto": {
@@ -66,7 +72,7 @@
     "direccion": "Cuenca, Ecuador"
   },
   "voz": "De tú, en español neutro de Ecuador/LATAM. Claro, directo, competente. Verbo + resultado ('Cierra el mes en dos horas', no 'Optimiza tu productividad'). Sin adjetivos vacíos (revolucionario, potente, moderno), sin relleno y sin promesas que el producto no cumple. 'Pagas cuando recibes' es la frase del COD. Cifras solo si están medidas.",
-  "estilo": "Premium y operativo, no 'SaaS genérico' (referencias: linear.app, stripe.com). El producto visible: capturas reales del panel, chat del bot, tarjetas de novedad, estados de pedido como pills. Titulares en Bricolage Grotesque con tracking -0.025em; el acento es el color #018ABE en una o dos palabras, nunca una itálica. Cuerpo en Onest. Radios de 2 a 6 px, bordes finos de 1 px, sombras solo en elementos flotantes. Fotos reales de vendedoras ecuatorianas/latinas con celular y cajas.",
+  "estilo": "Premium y operativo, no 'SaaS genérico' (referencias: linear.app, stripe.com). El producto visible: capturas reales del panel, chat del bot, tarjetas de novedad, estados de pedido como pills. Titulares en Bricolage Grotesque con tracking -0.025em; el acento es el color #018ABE en una o dos palabras, nunca una itálica. Cuerpo en Onest. Radios de 2 a 6 px, bordes finos de 1 px, sombras solo en elementos flotantes. Fotos reales de vendedoras ecuatorianas/latinas con celular y cajas. En redes la mascota 3D es la narradora: una pose distinta por slide que actúa lo que dice el texto, grande, saliendo de los marcos. Notas a mano (Caveat) con flechas, como en la hoja de la mascota, para comentarios cortos.",
   "reglas": [
     "El nombre se escribe scalEcom",
     "El logo se usa tal cual: sin recolorear, deformar ni efectos (logo.png en fondos claros, logo-claro.png en oscuros)",
@@ -88,5 +94,5 @@
     "número de WhatsApp comercial definitivo",
     "dominio definitivo (hoy scalecom.es está marcado como pendiente)"
   ],
-  "mascota": "mascota/ (copia exacta de landingScalEcom/src/mascota; componente Mascota.tsx): el carrito E del logo con cara. Gestos: reposo, escribiendo, pensando, contenta, rodar, triste, dormida, buscando. Accesorios: pin, caja, moneda, auriculares, lupa, birrete, celular."
+  "mascota": "mascota/3d/*.png: 16 poses 3D (saluda, laptop-guino, lentes, celular, rapido, resultados, corazon, cohete, concentrado, compras, vamos, escudo, bandera, idea, relajado, pulgar) recortadas de referencias/mascota-3d-hoja.webp; componente Mascota3D.tsx (entra con rebote y respira). mascota/Mascota.tsx es el dibujo plano del panel (usarlo solo si se pide el estilo plano)."
 }
