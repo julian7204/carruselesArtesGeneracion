@@ -44,43 +44,46 @@ function Notificacion({ children }: { children: ReactNode }) {
 function Pantalla() {
   const { marca, f, u, ancho, alto } = useLienzo();
   const c = marca.colores;
+  // 4:5 o story 9:16 (en story se respeta la zona que tapan los botones de la app: 220 arriba, 360 abajo).
+  const story = alto > ancho * 1.5;
+  const y = (feed: number, vertical: number) => (story ? vertical : feed) * u;
   return (
     <>
       <div style={{ position: "absolute", inset: 0, background: c.oscuro }} />
 
       {/* Barra de estado de la pantalla bloqueada */}
-      <div style={{ position: "absolute", left: 72 * u, right: 72 * u, top: 60 * u, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+      <div style={{ position: "absolute", left: 72 * u, right: 72 * u, top: y(60, 240), display: "flex", justifyContent: "space-between", alignItems: "center" }}>
         <Logo alto={34} claro />
         <div style={{ fontFamily: f.cuerpo, fontSize: 22 * u, color: c.grisOscuro, letterSpacing: 2 * u, textTransform: "uppercase" }}>Mensaje de ejemplo</div>
       </div>
 
       {/* Hora gigante: lo primero que se lee */}
-      <Entrar retraso={0} style={{ position: "absolute", left: 0, width: ancho, top: 150 * u, textAlign: "center" }}>
+      <Entrar retraso={0} style={{ position: "absolute", left: 0, width: ancho, top: y(150, 340), textAlign: "center" }}>
         <div style={{ fontFamily: f.cuerpoFuerte, fontWeight: 600, fontSize: 30 * u, color: c.suave }}>martes, de madrugada</div>
-        <div style={{ fontFamily: f.titulo, fontWeight: 700, fontSize: 290 * u, lineHeight: 0.92, letterSpacing: -12 * u, color: c.textoClaro, fontFeatureSettings: "'tnum'" }}>2:14</div>
+        <div style={{ fontFamily: f.titulo, fontWeight: 700, fontSize: y(290, 330), lineHeight: 0.92, letterSpacing: -12 * u, color: c.textoClaro, fontFeatureSettings: "'tnum'" }}>2:14</div>
       </Entrar>
 
-      <Entrar retraso={10} desde="arriba" style={{ position: "absolute", left: 72 * u, width: ancho - 144 * u, top: 490 * u }}>
+      <Entrar retraso={10} desde="arriba" style={{ position: "absolute", left: 72 * u, width: ancho - 144 * u, top: y(490, 710) }}>
         <Notificacion>Hola, ¿todavía tienen la negra? La quiero con envío a Guayaquil.</Notificacion>
       </Entrar>
 
-      <Entrar retraso={20} style={{ position: "absolute", left: 72 * u, width: ancho - 144 * u, top: 730 * u }}>
+      <Entrar retraso={20} style={{ position: "absolute", left: 72 * u, width: ancho - 144 * u, top: y(730, 950) }}>
         <div style={{ fontFamily: f.titulo, fontWeight: 700, fontSize: 70 * u, lineHeight: 1.04, letterSpacing: -1.8 * u, color: c.textoClaro }}>
           ¿Le respondes mañana?<br /><span style={{ color: c.acento }}>¿O le vendes ahora?</span>
         </div>
       </Entrar>
 
       {/* Botones tipo llamada entrante */}
-      <Entrar retraso={30} desde="abajo" style={{ position: "absolute", left: 40 * u, top: 940 * u, display: "flex", gap: 0 }}>
+      <Entrar retraso={30} desde="abajo" style={{ position: "absolute", left: 40 * u, top: y(940, 1200), display: "flex", gap: 0 }}>
         <Boton color={c.peligro} icono="tabler-x" texto="Mañana" sub="y que compre en otro lado" />
         <Boton color={c.whatsapp} icono="tabler-check" texto="Ahora" sub="contesta scalEcom" claro />
       </Entrar>
 
       {/* Mascota grande, cortada por el borde derecho y el inferior */}
-      <div style={{ position: "absolute", left: 600 * u, top: 960 * u }}>
+      <div style={{ position: "absolute", left: 600 * u, top: y(960, 1170) }}>
         <Mascota3D pose="laptop-guino" ancho={580 * u} retraso={24} entrada="rodando" sombra={false} />
       </div>
-      <Entrar retraso={44} style={{ position: "absolute", left: 650 * u, top: 900 * u }}>
+      <Entrar retraso={44} style={{ position: "absolute", left: 650 * u, top: y(900, 1110) }}>
         <div style={{ fontFamily: f.nota, fontWeight: 700, fontSize: 48 * u, color: c.suave, transform: "rotate(-5deg)" }}>Yo le contesto</div>
         <svg viewBox="0 0 100 60" style={{ position: "absolute", left: -110 * u, top: 40 * u, width: 110 * u, height: 66 * u, overflow: "visible" }}>
           <path d="M96 8 C 70 4, 30 14, 8 48 M8 48 l2 -16 M8 48 l15 -6" fill="none" stroke={c.suave} strokeWidth={4.5} strokeLinecap="round" strokeLinejoin="round" />
@@ -88,7 +91,7 @@ function Pantalla() {
       </Entrar>
 
       {/* Pie */}
-      <div style={{ position: "absolute", left: 72 * u, top: alto - 120 * u, fontFamily: f.cuerpo, fontSize: 24 * u, lineHeight: 1.4, color: c.grisOscuro, fontFeatureSettings: "'tnum'" }}>
+      <div style={{ position: "absolute", left: 72 * u, top: y(1230, 1480), fontFamily: f.cuerpo, fontSize: 24 * u, lineHeight: 1.4, color: c.grisOscuro, fontFeatureSettings: "'tnum'" }}>
         <span style={{ fontFamily: f.cuerpoFuerte, fontWeight: 600, color: c.textoClaro }}>Desde $29/mes</span> · Tu mismo número
         <br />
         Sin permanencia · {marca.contacto.instagram}
@@ -100,7 +103,7 @@ function Pantalla() {
 
 export default definirPost({
   marca: "scale-com",
-  formatos: ["instagram-carrusel"],
+  formatos: ["instagram-carrusel", "vertical"],
   slides: [Pantalla],
   segundosPorSlide: 5,
   caption:
