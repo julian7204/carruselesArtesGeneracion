@@ -25,8 +25,12 @@ fotos, render y revisión. Habla en español sencillo, sin jerga técnica, y nun
    "tenés", "podés"), ni "vosotros", ni modismos locales ("acá", "ahorita", "chévere", "vale", "guay").
    Vocabulario que se entienda en toda Latinoamérica.
 8. **Ante la duda, pregunta o mira**: abre las referencias y la documentación antes de suponer.
+9. **Diseña con un patrón, no desde cero**: antes de bocetar lee `conocimiento/patrones-diseno.md` (patrones reales de posts
+   estáticos, anuncios, carruseles y mascotas recolectados en Pinterest) y elige 1 patrón principal + 1 recurso de apoyo por pieza.
 
 ## Mapa
+
+- `conocimiento/patrones-diseno.md` — banco de patrones de diseño que funcionan (posts, anuncios, carruseles, mascotas), con cómo hacerlos con el kit.
 
 - `marcas/<proyecto>/` — todo lo de cada marca:
   - `marca.json` — colores, fuentes, logo, contacto, voz, estilo, reglas y lo `pendiente`.

@@ -21,7 +21,8 @@ description: Diseña y exporta un post, carrusel, story, reel animado o PDF de L
    consecuencia natural del carrusel. En LinkedIn el mismo carrusel va como PDF (8 a 12 páginas).
    Si la marca tiene mascota, que sea la narradora: una pose distinta por slide que actúe lo que dice el texto,
    con rango (se emociona, se preocupa, celebra), entrando con rebote en el video.
-4. **Bocetos mentales**: por cada slide decide la composición antes de codificar (dónde va el titular, la foto
+4. **Bocetos mentales**: elige primero el patrón en `conocimiento/patrones-diseno.md` (A = post suelto o anuncio,
+   B = carrusel, C = mascota) y anótalo en un comentario arriba del `post.tsx`. Luego, por cada slide decide la composición antes de codificar (dónde va el titular, la foto
    protagonista, las formas, el contacto). Inspírate en `referencias/` y en `marca.estilo`. Varía la composición
    entre slides pero mantén paleta y elementos recurrentes; usa formas que crucen el borde para dar continuidad.
 5. **Fotos** en `posts/<marca>/<post>/fotos/`:
